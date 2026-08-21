@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: pomodoro-app-api

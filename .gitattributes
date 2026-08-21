@@ -1,0 +1,9 @@
+# Maven Wrapper
+/backend/.mvn/wrapper/maven-wrapper.jar binary
+
+# Normalize text files to LF
+* text=auto eol=lf
+
+# Windows command scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
