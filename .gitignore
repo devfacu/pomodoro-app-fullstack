@@ -1,0 +1,63 @@
+# =========================
+# General / operating system
+# =========================
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# =========================
+# Frontend - React / Node.js
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/coverage/
+
+# Local tooling caches
+frontend/.vite/
+frontend/.cache/
+frontend/.eslintcache
+
+# =========================
+# Backend - Spring Boot / Java
+# =========================
+backend/target/
+backend/build/
+backend/out/
+
+*.class
+*.jar
+*.war
+
+# Maven wrapper download/cache
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Gradle (solo si algún día lo usaras)
+backend/.gradle/
+
+# Local Spring configuration containing credentials
+backend/src/main/resources/application-local.properties
+backend/src/main/resources/application-local.yml
+backend/src/main/resources/application-local.yaml
+backend/src/main/resources/application-secrets.properties
+backend/src/main/resources/application-secrets.yml
+backend/src/main/resources/application-secrets.yaml
+
+# =========================
+# IDEs
+# =========================
+.idea/
+*.iml
+
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
